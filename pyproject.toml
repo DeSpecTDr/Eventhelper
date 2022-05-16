@@ -6,9 +6,12 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pyTelegramBotAPI = "^4.4.0"
-requests = "^2.27.1"
-geopy = "^2.2.0"
+
+pyTelegramBotAPI = "^4.4.0" # библиотека для создания Telegram ботов
+
+requests = "^2.27.1" # библиотека для создания HTTP запросов
+
+geopy = "^2.2.0" # библиотека для обработки геолокаций и адресов
 
 
 [tool.poetry.dev-dependencies]
